@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "cn.tx.sboot.model.AcmeProperties",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.host",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,92 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "cn.tx.sboot.model.AcmeProperties",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    },
+    {
+      "name": "acme",
+      "type": "cn.tx.sboot.model.AnotherComponent",
+      "sourceType": "cn.tx.sboot.service.MyService",
+      "sourceMethod": "getAnotherComponent()"
+    },
+    {
+      "name": "acme.my-person.person",
+      "type": "cn.tx.sboot.model.OwnerProperties",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.school",
+      "type": "cn.tx.sboot.model.OwnerProperties$School",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties"
+    },
+    {
+      "name": "acme.security",
+      "type": "cn.tx.sboot.model.AcmeProperties$Security",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.tx.sboot.model.AnotherComponent",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.my-person.person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "acme.my-person.person.email",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.first-name",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.school.sname",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.OwnerProperties$School"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "cn.tx.sboot.model.AnotherComponent"
+    },
+    {
+      "name": "acme.security.password",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties$Security",
+      "defaultValue": "USER"
+    },
+    {
+      "name": "acme.security.username",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.AcmeProperties$Security"
+    }
+  ],
+  "hints": []
+}

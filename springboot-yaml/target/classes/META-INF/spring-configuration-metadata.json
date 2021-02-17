@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "yaml.level",
+      "type": "cn.tx.sboot.model.YamlModel",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yaml.level.birth",
+      "type": "java.util.Date",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.dnum",
+      "type": "java.lang.Double",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.num",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.tx.sboot.model.YamlModel",
+      "defaultValue": 0
+    },
+    {
+      "name": "yaml.level.set",
+      "type": "java.util.Set<java.lang.Integer>",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.special-str",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.str",
+      "type": "java.lang.String",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.users",
+      "type": "java.util.List<cn.tx.sboot.model.User>",
+      "sourceType": "cn.tx.sboot.model.YamlModel"
+    }
+  ],
+  "hints": []
+}

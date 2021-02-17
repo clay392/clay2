@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-anno-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-bind-test1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-bind-test2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-src/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-src1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-tx_anno-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-tx_config-719/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-tx_config-813/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-tx_config_test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-prop-bind/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sys/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-yaml1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-yaml2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-yml/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (4)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

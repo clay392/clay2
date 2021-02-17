@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-yml" />
+        <module name="springboot-springmvc" />
+        <module name="springboot-yaml" />
+        <module name="springboot-mybatis-tx_anno" />
+        <module name="ali-pay" />
+        <module name="springboot-company-sys" />
+        <module name="springboot-mybatis-spring-src" />
+        <module name="springboot-first" />
+        <module name="main-test" />
+        <module name="service-common" />
+        <module name="springboot-thymeleaf" />
+        <module name="wx-pay" />
+        <module name="springboot-bind-cons" />
+        <module name="springboot-config" />
+        <module name="springboot-profile" />
+        <module name="springboot-static-resources" />
+        <module name="springboot-mybatis-tx_config" />
+        <module name="springboot-bind-prop" />
+        <module name="springboot-mybatis-web-component" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-anno-mybatis" target="1.8" />
+      <module name="springboot-bind-test1" target="1.8" />
+      <module name="springboot-bind-test2" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis-anno" target="1.8" />
+      <module name="springboot-mybatis-src" target="1.8" />
+      <module name="springboot-mybatis-src1" target="1.8" />
+      <module name="springboot-mybatis-tx_anno-test" target="1.8" />
+      <module name="springboot-mybatis-tx_config-719" target="1.8" />
+      <module name="springboot-mybatis-tx_config-813" target="1.8" />
+      <module name="springboot-mybatis-tx_config_test" target="1.8" />
+      <module name="springboot-prop-bind" target="1.8" />
+      <module name="springboot-sys" target="1.8" />
+      <module name="springboot-yaml (1)" target="1.8" />
+      <module name="springboot-yaml1" target="1.8" />
+      <module name="springboot-yaml2" target="1.8" />
+      <module name="springboot-yaml23344" target="1.8" />
+      <module name="springboot-yml" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ali-pay" options="-parameters" />
+      <module name="java_spi" options="-parameters" />
+      <module name="main-test" options="-parameters" />
+      <module name="service-common" options="-parameters" />
+      <module name="springboot-anno-mybatis" options="-parameters" />
+      <module name="springboot-bind-cons" options="-parameters" />
+      <module name="springboot-bind-prop" options="-parameters" />
+      <module name="springboot-bind-test1" options="-parameters" />
+      <module name="springboot-bind-test2" options="-parameters" />
+      <module name="springboot-company-sys" options="-parameters" />
+      <module name="springboot-config" options="-parameters" />
+      <module name="springboot-first" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis-anno" options="-parameters" />
+      <module name="springboot-mybatis-spring-src" options="-parameters" />
+      <module name="springboot-mybatis-src" options="-parameters" />
+      <module name="springboot-mybatis-src1" options="-parameters" />
+      <module name="springboot-mybatis-tx_anno" options="-parameters" />
+      <module name="springboot-mybatis-tx_anno-test" options="-parameters" />
+      <module name="springboot-mybatis-tx_config" options="-parameters" />
+      <module name="springboot-mybatis-tx_config-719" options="-parameters" />
+      <module name="springboot-mybatis-tx_config-813" options="-parameters" />
+      <module name="springboot-mybatis-tx_config_test" options="-parameters" />
+      <module name="springboot-mybatis-web-component" options="-parameters" />
+      <module name="springboot-profile" options="-parameters" />
+      <module name="springboot-prop-bind" options="-parameters" />
+      <module name="springboot-springmvc" options="-parameters" />
+      <module name="springboot-static-resources" options="-parameters" />
+      <module name="springboot-sys" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
+      <module name="springboot-yaml" options="-parameters" />
+      <module name="springboot-yaml (1)" options="-parameters" />
+      <module name="springboot-yaml1" options="-parameters" />
+      <module name="springboot-yaml2" options="-parameters" />
+      <module name="springboot-yaml23344" options="-parameters" />
+      <module name="springboot-yml" options="-parameters" />
+      <module name="tx_sboot" options="-parameters" />
+      <module name="wx-pay" options="-parameters" />
+    </option>
+  </component>
+</project>
